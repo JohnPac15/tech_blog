@@ -1,1 +1,10 @@
-<div>You are on the homepage</div>
+<div>
+    {{#each post}}
+    <h2>
+        {{title}}
+    </h2>
+    <p>Post ID = {{id}}</p>
+    <p>This was created: {{created_at}}</p>
+    <p>User: {{user.username}}</p>
+    {{/each}}
+</div>
