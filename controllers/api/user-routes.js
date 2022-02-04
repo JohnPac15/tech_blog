@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { User, Post } = require("../../models");
+const { User, Post, Comment } = require("../../models");
 
 router.get("/", (req, res) => {
   User.findAll()
@@ -52,14 +52,23 @@ router.post('/login', (req, res) => {
       }
   
       req.session.save(() => {
-        // declare session variables
         req.session.user_id = dbUserData.id;
         req.session.username = dbUserData.username;
         req.session.loggedIn = true;
-  
         res.json({ user: dbUserData, message: 'You are now logged in!' });
       });
     });
   });
+
+  router.post('/logout', (req, res) => {
+    if (req.session.loggedIn) {
+      req.session.destroy(() => {
+        res.status(204).end();
+      });
+    }
+    else {
+      res.status(404).end();
+    }
+  })
 
 module.exports = router;

@@ -1,0 +1,10 @@
+<article class="post">
+  <div class="title">
+    <h1>{{title}}</h1>
+  </div>
+  <div class="meta">
+    by {{user.user}} on {{format_date created_at}}
+    |
+    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+  </div>
+</article>
