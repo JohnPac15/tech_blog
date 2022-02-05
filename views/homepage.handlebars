@@ -1,10 +1,13 @@
-<div>
-    {{#each post}}
-    <h2>
-        {{title}}
-    </h2>
-    <p>Post ID = {{id}}</p>
-    <p>This was created: {{created_at}}</p>
-    <p>User: {{user.username}}</p>
-    {{/each}}
+<div class="main-div">
+    <h1 class="center-h1">Recent Post!</h1>
+  {{#each post}}
+    <div class="post-div">
+      <p class="pd1">{{user.username}} posted: </p>
+      <p class="pd2">{{title}}</p>
+      <p class="pd3">{{format_date created_at}}</p>
+      <a href="/post/{{id}}">{{comments.length}}
+        {{format_plural "comment" comments.length}}</a>
+
+    </div>
+  {{/each}}
 </div>

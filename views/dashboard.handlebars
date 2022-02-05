@@ -1,26 +1,28 @@
-<section>
+<section class="dashboard-section">
+  <h1>DASHBOARD</h1>
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
     <div>
-      <label for="post-title">New Post</label>
+      <label class="new-post-form-label" for="post-title">New Post</label>
       <input type="text" id="post-title" name="post-title" />
     </div>
-    <button type="submit" class="btn">Create</button>
+    <button id="create-btn" type="submit" class="btn">Create</button>
   </form>
 </section>
 
 {{#if posts.length}}
-<section>
-  <h2>Your Posts</h2>
+<section class="dashboard-post">
+  <h2>Your Posts{{user}}</h2>
   <ol>
     {{#each posts as |post|}}
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
     <li>
       {{> post-partials post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
     </li>
     {{/each}}
   </ol>
 </section>
 {{/if}}
-<script src="/javascript/dashboard.js"></script>
+<script src="/javascript/addPost.js"></script>
+<script src="/javascript/editpost.js"></script>
