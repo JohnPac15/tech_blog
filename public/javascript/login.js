@@ -17,7 +17,7 @@ async function loginFormHandler(event) {
     console.log(response,'response')
 
     if(response.ok){
-        document.location.replace('/')
+        document.location.replace('/main')
     } else{
         console.log(response.statusText,'inside login');
     }
@@ -25,4 +25,4 @@ async function loginFormHandler(event) {
 }
 
 
-document.querySelector('.login-form').addEventListener('submit', loginFormHandler)
+document.querySelector('.the-login-form').addEventListener('submit', loginFormHandler)

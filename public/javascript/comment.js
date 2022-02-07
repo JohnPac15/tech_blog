@@ -19,7 +19,7 @@ async function commentFormHandler(event) {
             'Content-Type': 'application/json'
           }
         });
-      
+        console.log(response, "hey")
         if (response.ok) {
           document.location.reload();
         } else {

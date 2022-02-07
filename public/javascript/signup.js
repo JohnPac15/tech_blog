@@ -17,7 +17,7 @@ async function signupFromHandler(event){
     })
 
     if(response.ok){
-        document.location.replace('/');
+        document.location.replace('/main');
         console.log('success');
       } else {
         console.log(response.statusText,'inside signup');
