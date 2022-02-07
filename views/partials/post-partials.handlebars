@@ -1,13 +1,13 @@
 <article class="post">
   <div class="title">
-    <h1>Posted on {{format_date created_at}}</h1>
+    <h1 class="post-title-h1">Posted on {{format_date created_at}}</h1>
     <div class="title-div">
       <span>{{title}}</span>
     </div>
   </div>
   <div class="meta">
     <h3>Comments
-      <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+      <a href="/main/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
       <p>Add a new comment here!</p>
     </h3>
   </div>

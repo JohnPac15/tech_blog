@@ -81,7 +81,7 @@ header h1 {
   color: black;
   border: #00ffbf 3px solid;
   border-radius: 14%;
-  background: #0bb5ff;
+  background: #0bb5ff radial-gradient(#00ffbf, transparent);
 }
 
 .dashboard-section h1 {
@@ -97,7 +97,6 @@ header h1 {
 
 .new-post-form {
   display: flex;
-  border: black 3px solid;
   flex-direction: column;
 }
 
@@ -109,7 +108,8 @@ header h1 {
 }
 
 .new-post-form input {
-  width: 300px;
+  width: 500px;
+  height: 100px;
 }
 
 .dashboard-post {
@@ -205,6 +205,13 @@ header h1 {
 
 /* post.handlebars */
 
+.the-post-page{
+  border: #00ffbf 2px solid;
+    border-radius: 15px;
+    background: #0bb5ff radial-gradient(black, transparent);
+    padding: 1%;
+}
+
 /* signup.handlebars */
 
 .signup-form {
@@ -226,7 +233,8 @@ header h1 {
 }
 
 .comment:nth-child(odd) {
-  background-color: #0bb5ff;
+  color: black;
+  background-color: white;
 }
 
 .comment .meta {
@@ -249,11 +257,13 @@ header h1 {
   margin-bottom: 2%;
   line-height: 150%;
 }
-
+.post-title-h1{
+  font-size: 12px;
+}
 .post .title span {
   font-style: italic;
-  font-size: 90%;
-  color: #7d7d7d;
+  font-size: 170%;
+  
 }
 
 a {
@@ -282,6 +292,8 @@ button {
   border: dashed 3px #00ffbf;
   border-radius: 2%;
 }
+
+
 
 .post-list {
   margin: 0;
@@ -351,17 +363,6 @@ main {
 .btn-no-style:hover {
   background: none;
   color: #3486eb;
-}
-
-.post {
-  margin-bottom: 2%;
-  line-height: 150%;
-}
-
-.post .title span {
-  font-style: italic;
-  font-size: 90%;
-  color: #7d7d7d;
 }
 
 footer {
