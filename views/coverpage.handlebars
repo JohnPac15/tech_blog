@@ -1,8 +1,13 @@
 <div class="cover-page">
     <h1>TECH BLOG</h1>
     <div class="cover-page-div">
+        {{#if loggedIn}}
+        <a class="a1" href="/main">Login Here!</a>
+        <a class="a2" chref="/main">Sign-up Here!</a>
+        {{else}}
         <a class="a1" href="/main/login">Login Here!</a>
         <a class="a2" chref="/main/signup">Sign-up Here!</a>
+        {{/if}}
     </div>
     
 </div>
