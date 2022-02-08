@@ -1,6 +1,6 @@
 #  # Tech-Blog
  ## Description 
- TDB
+ Tech- Blog is a very easy and full app to use. Have you ever been on Facebook? Well, Tech-blog was designed using inspiration from Facebook's platform. Tech_Blog is a site where you can make an account, and post about whatever you want, and your friends can comment on your post. You will notice we built Tech-blog with the users' security in mind, and the interface will only allow you to access the site if you are a verified user. Tech-Blog is loaded with features, and we look forward to seeing you post about them. Thank you again for visiting Tech-Blog 
  ## Table of Contents
  * [Installation](#installation)
  * [Usage](#usage)

@@ -16,22 +16,36 @@ html {
 
 .cover-page {
   display: flex;
+  height: 500px;
     border: white 3px solid;
     border-radius: 228px;
     flex-direction: column;
     align-items: center;
     background: #0bb5ff repeating-radial-gradient(#00ffbf, transparent 100px);
+    align-items: center;
+    justify-content: center;
 }
 
 .cover-page-div{
   border: #00ffbf 3px solid;
     border-radius: 68px;
-    height: 459px;
     display: flex;
     background: #0bb5ff;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.a1{
+  text-align: center;
+  margin: 10px;
+  padding: 1%;
+}
+
+.a2{
+  text-align: center;
+  margin: 10px;
+  padding: 1%;
 }
 
 /* main.handle bars */
