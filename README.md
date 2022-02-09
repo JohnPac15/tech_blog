@@ -61,12 +61,16 @@ You’ll need to use the express-handlebars , MySQL2, Sequelize, dotenv package,
  **Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
  ### 4. Permanent Ban
  **Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
- ## Testing 
-TBD
+ 
  ## Contact 
  Made by John Pacini
 
  Github - https://github.com/Johnpac15
  Email - Johnpac15@yahoo.com
+ Repo- https://github.com/JohnPac15/tech_blog
 
  ## screenshots
+ <img width="1440" alt="Screen Shot 2022-02-08 at 6 29 12 PM" src="https://user-images.githubusercontent.com/88564390/153098956-e3e130bf-c048-40be-acfa-a4f5e74d68c8.png">
+<img width="1440" alt="Screen Shot 2022-02-08 at 6 28 29 PM" src="https://user-images.githubusercontent.com/88564390/153098963-640caab8-fbd8-4890-b9d3-22e2dbd6cf71.png">
+<img width="1440" alt="Screen Shot 2022-02-08 at 6 28 07 PM" src="https://user-images.githubusercontent.com/88564390/153098974-a9429ce1-0a84-43bd-a98f-c245e6c02da9.png">
+<img width="1440" alt="Screen Shot 2022-02-08 at 6 28 53 PM" src="https://user-images.githubusercontent.com/88564390/153098992-7ab52b39-80fd-444d-b6f3-2b75961b10c8.png">
